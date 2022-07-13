@@ -80,7 +80,7 @@ def edf_to_array(filename_in,seizures_time_code,time_lenght,number_of_patient):
         data = tmp[index_start:index_stop,1:]
 
         
-        fft = data_to_fft(data)
+        fft = data_to_fft(data) #to replace with data to get rid of the fft
 
 
         
